@@ -81,32 +81,12 @@ O `app.py` tem algumas funções, cada uma responsável por uma parte do program
 - `imprimir_resumo`: mostra os casos no terminal.
 - `main`: executa o programa e salva os gráficos.
 
-## Como rodar
+## Anexos
 
-Instale as bibliotecas:
+- Análise com python
+  ![Gráfico](grafico.png)
+  ![Gráfico](grafico2png.png)
 
-```bash
-pip install pandas matplotlib
-```
+**Assinatura do Responsável pelo Projeto:**  
 
-Depois execute:
-
-```bash
-python arquuivo.py
-```
-
-O arquivo `casos_aws.csv` precisa estar na mesma pasta do `app.py`.
-
-O programa mostra o resumo no terminal e gera os dois gráficos em PNG.
-
-## Estrutura de arquivos
-
-```text
-projeto-aws/
-├── app.py
-├── casos_aws.csv
-├── estilo.mplstyle
-├── grafico_casos.png
-├── grafico_faixa.png
-└── README.md
-```
+Manuella Santos
