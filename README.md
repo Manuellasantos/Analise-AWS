@@ -18,6 +18,14 @@ O código lê um CSV com casos reais de empresas que reduziram custos usando tr�
    - `grafico_casos.png`: mostra a redução de custo de cada caso.
    - `grafico_faixa.png`: mostra a menor e a maior redução encontrada em cada serviço.
 
+### Redução de custos por caso
+
+![Gráfico de casos](grafico_casos.png)
+
+### Faixa de redução por serviço
+
+![Gráfico por serviço](grafico_faixa.png)
+
 ## De onde vêm os dados
 
 Os dados foram pesquisados em casos reais de empresas que divulgaram informações sobre redução de custos com S3, EC2 e RDS.
@@ -81,12 +89,32 @@ O `app.py` tem algumas funções, cada uma responsável por uma parte do program
 - `imprimir_resumo`: mostra os casos no terminal.
 - `main`: executa o programa e salva os gráficos.
 
-## Anexos
+## Como rodar
 
-- Análise com python
-  ![Gráfico](grafico.png)
-  ![Gráfico](grafico2png.png)
+Instale as bibliotecas:
 
-**Assinatura do Responsável pelo Projeto:**  
+```bash
+pip install pandas matplotlib
+```
 
-Manuella Santos
+Depois execute:
+
+```bash
+python arquivo.py
+```
+
+O arquivo `casos_aws.csv` precisa estar na mesma pasta do `app.py`.
+
+O programa mostra o resumo no terminal e gera os dois gráficos em PNG.
+
+## Estrutura de arquivos
+
+```text
+projeto-aws/
+├── app.py
+├── casos_aws.csv
+├── estilo.mplstyle
+├── grafico_casos.png
+├── grafico_faixa.png
+└── README.md
+```
