@@ -1,7 +1,0 @@
-Categoria,Servico_AWS,Custo_Antes_AWS,Custo_Depois_AWS,Economia_Mensal
-ERP e Servidores,Amazon EC2,8500,3200,5300
-Armazenamento de Arquivos,Amazon S3,4000,850,3150
-Banco de Dados,Amazon RDS,6000,2400,3600
-Monitoramento,Amazon CloudWatch,2000,650,1350
-Backups, AWS Backup,3500,900,2600
-Distribuicao de Arquivos,Amazon CloudFront,1800,700,1100

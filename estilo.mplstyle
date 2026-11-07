@@ -1,0 +1,36 @@
+# Estilo dos gráficos: fundo preto com rosa, roxo, azul e ciano
+# Paleta: rosa #FF4FA3, roxo #A855F7, azul #4D7CFF, ciano #22D3EE
+
+# Fundo
+figure.facecolor: 000000
+axes.facecolor: 000000
+savefig.facecolor: 000000
+
+# Texto
+text.color: F5F5F7
+font.size: 11
+axes.titlesize: 14
+axes.titleweight: bold
+axes.titlepad: 14
+axes.titlecolor: 22D3EE
+axes.labelcolor: C9C9D1
+xtick.color: C9C9D1
+ytick.color: C9C9D1
+
+# Eixos e grade
+axes.edgecolor: 3A3A44
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: True
+axes.grid.axis: x
+axes.axisbelow: True
+grid.color: 2A2A33
+grid.linewidth: 0.8
+
+# Legenda
+legend.facecolor: 0B0B10
+legend.edgecolor: 3A3A44
+legend.labelcolor: F5F5F7
+
+# Ordem das cores
+axes.prop_cycle: cycler('color', ['FF4FA3', 'A855F7', '4D7CFF', '22D3EE'])
