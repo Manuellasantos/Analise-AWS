@@ -26,7 +26,7 @@ O código lê um CSV com casos reais de empresas que reduziram custos usando tr�
 
 ![Gráfico por serviço](grafico_faixa.png)
 
-## De onde vêm os dados
+## De onde vem os dados
 
 Os dados foram pesquisados em casos reais de empresas que divulgaram informações sobre redução de custos com S3, EC2 e RDS.
 
