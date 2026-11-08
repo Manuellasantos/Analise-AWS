@@ -80,7 +80,7 @@ Os links dos casos estão na seção **Fontes** e também na coluna `Fonte` do C
 
 ## Estrutura do código
 
-O `app.py` tem algumas funções, cada uma responsável por uma parte do programa:
+O `arquivo.py` tem algumas funções, cada uma responsável por uma parte do programa:
 
 - `carregar_dados`: lê o CSV e confere se as colunas existem.
 - `rotulo_valor`: monta os textos dos valores que aparecem nos gráficos.
@@ -103,7 +103,7 @@ Depois execute:
 python arquivo.py
 ```
 
-O arquivo `casos_aws.csv` precisa estar na mesma pasta do `app.py`.
+O arquivo `casos_aws.csv` precisa estar na mesma pasta do `arquivo.py`.
 
 O programa mostra o resumo no terminal e gera os dois gráficos em PNG.
 
@@ -111,7 +111,7 @@ O programa mostra o resumo no terminal e gera os dois gráficos em PNG.
 
 ```text
 projeto-aws/
-├── app.py
+├── arquivo.py
 ├── casos_aws.csv
 ├── estilo.mplstyle
 ├── grafico_casos.png
